@@ -66,5 +66,4 @@ router.get("/users/auth", auth, (req, res) => {
       return res.status(200).send({ success: true });
     });
   });
-
   module.exports = router
